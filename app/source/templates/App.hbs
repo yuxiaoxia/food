@@ -1,0 +1,30 @@
+
+{{#each this}}
+    <div class="goods-list" data-id="{{id}}">
+        <div class="goods-img">
+            <img src="{{imgSrc}}" alt=""/>
+        </div>
+        <div class="goods-desc">
+            <div class="goods-title">
+                {{name}}
+            </div>
+            <div class="goods-intro">
+                {{intro}}
+            </div>
+            <div class="goods-sold">
+                已售：{{sold}}份/月
+            </div>
+        </div>
+        <div class="goods-price" data-money="">
+            <div class="new-price">
+                <span>￥<span class="price">{{newPrice}}</span></span></div>
+            <div class="old-price">
+                <span>原价{{oldPrice}} 元</span>
+            </div>
+            <a href="javascript:;" class="cut-goods select-btn hide">-</a>
+            <span class="goods-num hide">0</span>
+            <a href="javascript:;" class="add-goods select-btn">+</a>
+            <input type="hidden" name="name" value="">
+        </div>
+    </div>
+{{/each}}

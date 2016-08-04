@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <title>华夏餐厅介绍</title>
+  <link rel="stylesheet" href="../css/rest.min.css">
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <script src="../tpl/handlebars.runtime.js"></script>
+  <script src="../tpl/templates.js"></script>
+  <style>
+    .rest p {
+      font-size: .45rem;
+      margin: 0.4rem;
+    }
+    .swiper-container{
+      height:50%;
+    }
+    .swiper-slide{
+      height: 6rem;
+      margin-right: 10px;
+    }
+    .swiper-container {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      z-index: 6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="top2 top-shadow">
+    <a href="index.html" class="back2"></a>
+    餐厅介绍
+  </header>
+
+  <div class="rest-con">
+
+  </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="../img/rest/rest1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/rest/rest2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/rest/rest3.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/rest/rest4.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="../public/base.min.js"></script>
+  <script src="../js/rest.min.js"></script>
+  <script>
+  var mySwiper = new Swiper('.swiper-container', {
+      slidesPerView:2,
+      pagination: '.swiper-pagination',
+  });
+  </script>
+</body>
+
+</html>

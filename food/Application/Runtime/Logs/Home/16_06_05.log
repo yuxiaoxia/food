@@ -1,0 +1,32 @@
+[ 2016-06-05T19:04:23+08:00 ] 127.0.0.1 /food/index.php/Home/
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015951s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026078s ]
+SQL: SHOW COLUMNS FROM `food_order` [ RunTime:0.1413s ]
+SQL: SHOW COLUMNS FROM `food_orderseat` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `food_orderfood` [ RunTime:0.0183s ]
+SQL: SHOW COLUMNS FROM `food_seat` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `food_order` WHERE ( ostatus=0 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `food_orderseat` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `food_seat` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `ordertime` FROM `food_order` WHERE ( ostatus=2 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000781s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000970s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012104s ]
+

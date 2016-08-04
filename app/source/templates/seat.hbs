@@ -1,0 +1,12 @@
+<ul class="seat-con">
+    {{#each this}}
+    <li class="seat-select seat" data-id="{{id}}">
+      <div class="seat-desc">
+        <div>座位id:{{id}}</div>
+        <div>可容{{seatnum}}人</div>
+      </div>
+      <div class="seat-status">{{status}}</div>
+      <input type="hidden" name="name" value="座位id号为{{id}}/共{{seatnum}}位/包间费：{{bjf}}</br>{{desc}}">
+    </li>
+    {{/each}}
+</ul>

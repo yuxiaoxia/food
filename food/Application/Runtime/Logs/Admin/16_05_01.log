@@ -1,0 +1,26 @@
+[ 2016-05-01T23:55:05+08:00 ] 127.0.0.1 /food/Admin/caipu.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `food_cat` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `food_cat` WHERE ( pid=0 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+

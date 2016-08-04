@@ -1,0 +1,2117 @@
+[ 2016-05-21T11:14:42+08:00 ] 127.0.0.1 /food/index.php/Admin/
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `food_rest` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `food_rest`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-05-21T11:14:45+08:00 ] 127.0.0.1 /food/index.php/Admin/Index/rupdate
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food_rest` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `food_rest`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-05-21T11:14:46+08:00 ] 127.0.0.1 /food/index.php/Admin/Index/Addimg
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Array to string conversion D:\WWW\food\Application\Admin\Controller\IndexController.class.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2016-05-21T11:14:48+08:00 ] 127.0.0.1 /food/index.php/Admin/tips.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `food_tips` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `food_tips`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-05-21T11:14:50+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-05-21T15:42:47+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.1637s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-05-21T15:42:50+08:00 ] 127.0.0.1 /food/index.php/Admin/index.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `food_rest` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `food_rest`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-05-21T16:11:35+08:00 ] 127.0.0.1 /food/index.php/Admin/
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `food_rest` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `food_rest`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-05-21T16:11:57+08:00 ] 127.0.0.1 /food/index.php/Admin/
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food_rest` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `food_rest`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-05-21T16:12:00+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-05-21T16:38:50+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010494s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000503s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2016-05-21T16:40:31+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-05-21T16:40:39+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-05-21T16:42:19+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-05-21T16:42:23+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-05-21T16:42:51+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-05-21T16:43:40+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.1601s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-05-21T16:46:14+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-05-21T16:46:17+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0297s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-05-21T16:46:35+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-05-21T16:46:38+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-05-21T16:47:38+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-05-21T16:47:41+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-05-21T16:48:20+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-05-21T16:48:24+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-05-21T16:48:58+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-05-21T16:49:01+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-05-21T16:50:31+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-05-21T16:52:17+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2016-05-21T16:52:20+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-05-21T16:53:37+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-05-21T16:53:42+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-05-21T16:56:15+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2016-05-21T16:56:18+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-05-21T16:57:16+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-05-21T16:58:13+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-05-21T16:58:31+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-05-21T16:58:37+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-05-21T16:59:01+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-05-21T16:59:04+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-05-21T16:59:14+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-05-21T17:00:37+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-05-21T17:00:51+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-05-21T17:01:06+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-05-21T17:01:10+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-05-21T17:02:15+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-05-21T17:02:49+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-05-21T17:03:37+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-05-21T17:03:39+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2016-05-21T17:03:40+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002423s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-05-21T17:03:41+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-05-21T17:03:42+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003242s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-05-21T17:03:43+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006626s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008398s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2016-05-21T17:03:44+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-05-21T17:03:45+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003573s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-05-21T17:03:46+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005051s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009591s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-05-21T17:03:47+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006040s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-05-21T17:03:48+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007837s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-05-21T17:03:50+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005029s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-05-21T17:03:51+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-05-21T17:03:52+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-05-21T17:06:02+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-05-21T17:12:54+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003157s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-05-21T23:40:55+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006617s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008465s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.1696s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2016-05-21T23:41:40+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-05-21T23:41:53+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-05-21T23:45:59+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-05-21T23:47:09+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.319718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.319839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-05-21T23:47:29+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-05-21T23:48:00+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-05-21T23:48:17+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-05-21T23:48:44+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-05-21T23:51:38+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-05-21T23:51:54+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2016-05-21T23:52:48+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-05-21T23:54:20+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-05-21T23:54:39+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-05-21T23:55:23+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002931s ]
+
+[ 2016-05-21T23:55:42+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-05-21T23:56:53+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `food_caipu` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `food_caipu` ORDER BY sold desc LIMIT 5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\food\Application\Admin\Controller\CalController.class.php:9) D:\WWW\food\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\food\Application\Admin\Controller\CalController.class.php:9) D:\WWW\food\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\food\Application\Admin\Controller\CalController.class.php:9) D:\WWW\food\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-05-21T23:59:41+08:00 ] 127.0.0.1 /food/index.php/Admin/cal.html
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(D:\WWW\food\ThinkPHP/Lang/zh_cn.php): failed to open stream: No such file or directory D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include(): Failed opening 'D:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') D:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `food_user` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `food_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `food_caipu` [ RunTime:0.0449s ]
+SQL: SELECT `Cname`,`sold` FROM `food_caipu` ORDER BY sold desc LIMIT 5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+

@@ -1,0 +1,56 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统"/>
+<style>
+  .img-round{
+    float: left;
+    margin-right: 20px;
+  }
+</style>
+<include file="Common:nav"/>
+<div class="dl-con">
+  <div class="con-width dl-tab-slide">
+    <h4 class="nav-tit">
+      系统管理
+      <div class="cutline"></div>
+    </h4>
+    <ul>
+      <volist name='Title' id='vo' key="k">
+        <li class="slide-tab" data-slide="tab{$k}">{$vo}</li>
+      </volist>
+    </ul>
+  </div>
+  <div class="dl-tab-content">
+      <div class="dl-nav-bar">
+        <ul id="dl-nav-bar-tit">
+          <li class="nav-bar-tit dl-nav-bar-select" data-slide="tab1">
+            <span class="bar-tit">餐厅信息</span>
+            <span class="sub-tab-closeBtn"></span>
+          </li>
+        </ul>
+      </div>
+    <div class="dl-nav-con">
+      <div class="tab-content tab-wraped" id="tab-con">
+        <div class="tab-pane active" data-slide="tab1" data-href="__URL__/Rinfo">
+          <include file="Index:Rinfo"/>
+        </div>
+        <div class="tab-pane" data-slide="tab2" data-href="__URL__/rupdate">
+
+        </div>
+        <div class="tab-pane" data-slide="tab3" data-href="__URL__/user">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sui-loading loading-inline loading" id="loading" style="display: none">
+  <i class="sui-icon icon-pc-loading"></i>
+  <span>正在加载中</span>
+</div>
+<script>
+$(document).ready(function(){
+    $(".nav-system").parent().addClass("dl-selected");
+});
+</script>
+<!-- 引入底部文件 -->
+<include file="Common:footer"/>

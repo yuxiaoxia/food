@@ -1,0 +1,117 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统" />
+<include file="Common:nav" />
+<iframe id="id_iframe" name="id_iframe" style="display:none;"></iframe>
+<div class="dl-con">
+  <div id="" class="con-width dl-tab-slide">
+    <h4 class="nav-tit">
+      菜谱管理
+      <div class="cutline"></div>
+    </h4>
+    <ul>
+      <li class="slide-tab" data-slide="tab1">分类列表</li>
+      <li class="slide-tab" data-slide="tab2">子分类列表</li>
+      <li class="slide-tab" data-slide="tab3">菜谱列表</li>
+      <li class="slide-tab" data-slide="tab4">添加菜品</li>
+    </ul>
+  </div>
+  <div class="dl-tab-content">
+    <div class="dl-nav-bar">
+      <ul id="dl-nav-bar-tit">
+        <li class="dl-nav-bar-select nav-bar-tit" data-slide="tab1">
+          <span class="bar-tit">分类列表</span>
+          <span class="sub-tab-closeBtn"></span>
+        </li>
+      </ul>
+    </div>
+    <div class="dl-nav-con">
+      <div class="tab-content tab-wraped" id="tab-con">
+        <div class="tab-pane active" data-slide="tab1" data-href="__URL__/Fenlei">
+          <include file="Caipu:Fenlei" />
+        </div>
+        <div class="tab-pane tab-none" data-slide="tab2" id="tab2" data-href="__URL__/Zifenlei">
+
+        </div>
+        <div class="tab-pane tab-none" data-slide="tab3" data-href="__URL__/Caipulb">
+
+        </div>
+        <div class="tab-pane tab-none" data-slide="tab4" data-href="__URL__/Addcaipin" id="addcaipu">
+
+        </div>
+        <br>
+        <div class="uplaod hide">
+          <div style="float:left;margin-right:40px;">
+            <span>选择菜谱列表图片上传：</span>
+            <form name="form1" method="post" enctype="multipart/form-data" action="__URL__/uploadpic" id="loadPic1" target="id_iframe">
+               <input type="file" name="picfile" style="width:160px;" />
+               <input type="submit" name="addpic1" value="上传" />
+            </form>
+          </div>
+          <div style="float:left;">
+            <span>选择菜谱详情图片上传：</span>
+            <form name="form2" method="post" enctype="multipart/form-data" action="__URL__/uploadpic" id="loadPic2" target="id_iframe">
+               <input type="file" name="picfile" style="width:160px;" />
+               <input type="submit" name="addpic2" value="上传" />
+            </form>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="sui-loading loading-inline loading" id="loading" style="display: none">
+  <i class="sui-icon icon-pc-loading"></i>
+  <span>正在加载中</span>
+</div>
+<script>
+  $(document).ready(function() {
+    $(".nav-caipu").parent().addClass("dl-selected");
+    $("body").on("click", "#caipin-edit-btn", function() {
+      var ok = true;
+      if ($("#addfufenlei").val() == "") {
+        alert("请选择！");
+        return;
+      }
+      if ($("#addzifenlei").val() == "") {
+        alert("请选择！");
+        return;
+      }
+      $("#add-caipin input[data-rules=required]").each(function() {
+        $(this).focus(function() {
+          $form.validate("hideError", $(this), "myerror");
+        });
+        if ($(this).val() == "") {
+          $form.validate("showError", $(this), "请填写", "myerror");
+          ok = false;
+        } else {
+          ok = true;
+        }
+
+      });
+
+      if (ok == true) {
+        var data = $('#add-caipin').serialize() + "&Act=Add";
+        $.ajax({
+          type: 'POST',
+          url: "__URL__/addcaipin",
+          data: data,
+          beforeSend: function() {
+            $("#loading").show();
+          },
+          success: function(data) {
+            $("#loading").hide();
+            alert(data.info);
+            // window.location.reload();
+          }
+        });
+      }
+    });
+  });
+</script>
+<!-- 引入底部文件 -->
+<include file="Common:footer" js="index" />

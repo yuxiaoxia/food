@@ -1,0 +1,18 @@
+{{#each this}}
+<div class="selected-list" data-id="{{id}}" data-money="{{money}}" data-num="{{num}}" data-price="{{price}}" data-name="{{name}}">
+  <div class="goodsName"><span>{{name}}</span>
+     &nbsp;&nbsp;&nbsp;
+    <span> X <span class="num">{{num}}</span></span>
+    <span class="price"> {{price}}</span></div>
+  <div class="remark">备注：
+    <input type="text" placeholder="是否加辣、葱花等" />
+  </div>
+  <div class="edit" style="display: none">
+    <a href="javascript:;" class="delect" data-id="{{id}}"></a>
+    <div class="edit-num">
+      <a href="javascript:;" class="cut-num">-</a>
+      <a href="javascript:;" class="add-num">+</a>
+    </div>
+  </div>
+</div>
+{{/each}}

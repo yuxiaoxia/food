@@ -1,0 +1,153 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统" />
+<!-- 这里添加css -->
+<style>
+  .showcon {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+
+  .box {
+    width: 200px;
+    height: 120px;
+    border-radius: 6px;
+    background: rgb(8, 61, 105);
+    float: left;
+    color: rgba(255, 255, 255, 0.81);
+    margin-right: 40px;
+  }
+
+  .box1 {
+    background: rgb(8, 61, 105);
+  }
+
+  .box-top {
+    height: 35%;
+    line-height: 40px;
+    text-indent: 8px;
+    background: rgb(57, 111, 155);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 14px;
+  }
+
+  .box-bottom {
+    height: 65%;
+  }
+
+  .box-bottom-left {
+    float: left;
+  }
+
+  .box-bottom-right {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+  .myicon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px 10px 25px;
+  }
+
+  .myicon-order {
+    background: url("__IMG__/order.png");
+    background-size: cover;
+  }
+
+  .myicon-seat {
+    background: url("__IMG__/seat.png");
+    background-size: cover;
+  }
+  .myicon-seatnum {
+    background: url("__IMG__/seatnum.png");
+    background-size: cover;
+  }
+  .myicon-one {
+      width: 68px;
+    background: url("__IMG__/one.png");
+    background-size: cover;
+  }
+</style>
+<!-- 引入导航 -->
+<include file="Common:nav" />
+<div class="index-con">
+  <div class="showcon">
+    <div class="box box1">
+      <div class="box-top">
+        未处理点菜订单
+      </div>
+      <div class="box-bottom">
+        <div class="box-bottom-left">
+          <i class="myicon myicon-order"></i>
+        </div>
+        <div class="box-bottom-right">
+          {$unordernum}
+        </div>
+
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="box-top">
+        未确认订座订单
+      </div>
+      <div class="box-bottom">
+        <div class="box-bottom-left">
+          <i class="myicon myicon-seat"></i>
+        </div>
+        <div class="box-bottom-right">
+          {$unseatnum}
+        </div>
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="box-top">
+        空闲桌台
+      </div>
+      <div class="box-bottom">
+        <div class="box-bottom-left">
+  <i class="myicon myicon-seatnum"></i>
+        </div>
+        <div class="box-bottom-right">
+          {$seatnum}
+        </div>
+
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-top">
+        今日订单
+      </div>
+      <div class="box-bottom">
+        <div class="box-bottom-left">
+<i class="myicon myicon-one"></i>
+        </div>
+        <div class="box-bottom-right">
+          {$ordernum}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(
+    function() {
+      var height = $(window).height() - 68 + "px";
+      $(".index-con").css({
+        "min-height": height
+      });
+      $(".nav-home").parent().addClass("dl-selected");
+    }
+  );
+</script>
+<!-- 引入底部文件 -->
+<include file="Common:footer" />

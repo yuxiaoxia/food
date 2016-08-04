@@ -1,0 +1,212 @@
+<form class="sui-form sui-validate myform form-margin" id="add-caipin">
+  <table class="sui-table table-bordered">
+    <tr>
+      <td style="width: 100px;">请选择分类：</td>
+      <td>
+        请选择父分类：
+        <span class="sui-dropdown dropdown-bordered select">
+            <span class="dropdown-inner">
+              <a role="button" href="javascript:void(0);" data-toggle="dropdown" class="dropdown-toggle">
+              <input value="" name="fufenlei" type="hidden" id="addfufenlei">
+              <i class="caret"></i><span>选择分类</span></a>
+        <ul role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+          <foreach name="fudata" item="fudata">
+            <li role="presentation" data-id="{$fudata.id}" class="fuselect">
+              <a role="menuitem" tabindex="-1" href="javascript:void(0);" value="{$fudata.name}">{$fudata.name}</a>
+            </li>
+          </foreach>
+        </ul>
+        </span>
+        </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 请选择子分类：
+        <span class="sui-dropdown dropdown-bordered select">
+            <span class="dropdown-inner">
+              <a role="button" href="javascript:void(0);" data-toggle="dropdown" class="dropdown-toggle">
+              <input value="" name="zifenlei" type="hidden" id="addzifenlei">
+              <i class="caret"></i><span>选择子分类</span></a>
+        <ul role="menu" aria-labelledby="drop4" class="sui-dropdown-menu" id="selectzifenlei">
+        </ul>
+        </span>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品名：</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写菜品名：" data-rules="required" name="name">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品标题：</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写菜品标题" data-rules="required" name="title">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品价格</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写菜品价格" data-rules="required" name="newprice">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品口味：</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写菜品口味" name="kouwei">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品烹饪时间：</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写烹饪时间" name="prtime">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品主料：</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写菜品主料" name="zhuliao">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品功效：</td>
+      <td>
+        <input type="text" class="input-xxlarge input-fat" placeholder="请填写菜品主料" name="gongxiao">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 100px;">菜品简介：</td>
+      <td>
+        <textarea name="desc" rows="8" cols="140">
+
+        </textarea>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="width: 100px;">菜品图片：</td>
+      <td>
+        <ul class="sui-row-fluid">
+          <li class="span2" style="margin-right:20px;">
+            菜谱列表小图
+            <div class="img-round">
+              <img src="" alt="" id="pic1">
+              <input type="hidden" value="" id="simg">
+            </div>
+          </li>
+          <li class="span2">
+            菜谱详情大图
+            <div class="img-round">
+              <img src="" alt="" id="pic2">
+              <input type="hidden" value="" id="bimg">
+            </div>
+          </li>
+
+        </ul>
+      </td>
+    </tr>
+
+  </table>
+</form>
+
+<button type="button" class="sui-btn btn-primary btn-large" id="addCaipin-ok">确定</button>
+<script>
+  //级联选择菜品分类
+  if($("#addcaipu").hasClass("active")){
+    $(".uplaod").show();
+  }else{
+    $(".uplaod").hide();
+  }
+  function showpic1(str){
+    var str = "http://www.wlx.com/food/Public/"+str;
+    $("#simg").val(str);
+    $("#pic1").attr({"src":str});
+  };
+  function showpic2(str){
+    var str = "http://www.wlx.com/food/Public/"+str;
+    $("#bimg").val(str);
+    $("#pic2").attr({"src":str});
+  };
+  $("body").on("click", ".fuselect", function() {
+    var id = $(this).attr("data-id");
+    $.ajax({
+      type: 'POST',
+      url: "__URL__/addcaipin",
+      data: {
+        "selectId": id,
+        "Act": "select",
+      },
+      success: function(data) {
+        var data = JSON.parse(data);
+        var str = 　"";
+        for (var i = 0; i < data.length; i++) {
+          console.log(data[i].name)
+          $("#selectzifenlei").html("");
+
+          str += '<li role="presentation" data-id="' + data[i].id + '"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="' + data[i].name + '">' + data[i].name + '</a></li>';
+          $("#selectzifenlei").html(str);
+        }
+      }
+    });
+  });
+
+  //
+  var $form = $("#add-caipin");
+  // $form.validate("showError", "username", "", "myerror");
+  $("body").on("click", "#addCaipin-ok", function() {
+    var ok = true;
+    if ($("#addfufenlei").val() == "") {
+      alert("请选择！");
+      return;
+    }
+    if ($("#addzifenlei").val() == "") {
+      alert("请选择！");
+      return;
+    }
+    if ($("#addzifenlei").val() == "") {
+      alert("请选择！");
+      return;
+    }
+    if ($("#simg").val() == "") {
+      alert("请上传！");
+      return;
+    }
+    if ($("#bimg").val() == "") {
+      alert("请上传！");
+      return;
+    }
+    $("#add-caipin input[data-rules=required]").each(function() {
+      $(this).focus(function() {
+        $form.validate("hideError", $(this), "myerror");
+      });
+      if ($(this).val() == "") {
+        $form.validate("showError", $(this), "请填写", "myerror");
+        ok = false;
+        return;
+      } else {
+        ok = true;
+      }
+
+    });
+    var simg = "&simg="+$("#simg").val();
+    var bimg = "&bimg="+$("#bimg").val();
+
+    if (ok == true) {
+      var data = $('#add-caipin').serialize() + "&Act=Add" + simg + bimg;
+      $.ajax({
+        type: 'POST',
+        url: "__URL__/addcaipin",
+        data: data,
+        beforeSend: function() {
+          $("#loading").show();
+        },
+        success: function(data) {
+          $("#loading").hide();
+          alert(data.info);
+          // window.location.reload();
+        }
+      });
+    }
+  });
+
+
+
+</script>

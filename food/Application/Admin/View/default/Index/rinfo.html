@@ -1,0 +1,57 @@
+<div id="rest-info">
+  <table class="sui-table table-bordered">
+    <volist name="data" id="data">
+      <tr>
+        <td style="width: 100px;">餐厅名称</td>
+        <td>{$data.name}</td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">餐厅注册时间</td>
+        <td>{$data.time}</td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">创始人</td>
+        <td>{$data.founders}</td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">餐馆类型</td>
+        <td>{$data.type}</td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">餐馆简介</td>
+        <td>{$data.brief}</td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">特色服务</td>
+        <td>
+          {$data.feature}
+        </td>
+      </tr>
+      <tr>
+        <td>图片展示</td>
+        <td>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest1.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest2.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest3.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest4.jpg" alt="">
+            </div>
+          </li>
+        </td>
+      </tr>
+  </volist>
+  </table>
+</div>

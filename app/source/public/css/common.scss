@@ -1,0 +1,245 @@
+@import "global.scss";
+
+$designWidth: 640;
+@function px2rem( $px ) {
+  @return $px*320/$designWidth/20 + rem;
+}
+
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+  }
+  *height: 1%;
+}
+
+@mixin com-w {
+  width: px2rem(592);
+  margin: 0 auto;
+}
+
+@mixin a-con($width,$height) {
+  display: inline-block;
+  width: $width;
+  height: $height;
+}
+
+@mixin a-btn($width,$height) {
+  display: inline-block;
+  width: $width;
+  height: $height;
+  color: #fff;
+  border-radius: 50%;
+}
+
+@mixin i-com($width,$height,$bg) {
+  display: inline-block;
+  width: $width;
+  height: $height;
+  line-height: $height;
+  background: $bg;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@mixin padding {
+  padding-left: px2rem(24);
+  padding-right: px2rem(24);
+}
+
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+$active-color: #fc4a00;
+$top-heght: px2rem(60);
+img {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  background: #fff;
+}
+
+.top {
+  padding: 0;
+  @include padding;
+  height: $top-heght;
+  background: $active-color;
+  .back {
+    @extend .left;
+  }
+}
+
+.back {
+  @include a-con(px2rem(28), px2rem(34));
+  background: url("../img/icon.png") px2rem(-84) px2rem(-114) no-repeat;
+  background-size: px2rem(500) px2rem(600);
+}
+
+.top2 {
+  @include padding;
+  height: px2rem(80);
+  line-height: px2rem(80);
+  font-size: px2rem(30);
+  text-align: center;
+  background: #fff;
+  .back2 {
+    @extend .left;
+  }
+}
+
+.back2 {
+  @include a-con(px2rem(28), px2rem(34));
+  background: url("../img/icon.png") px2rem(-84) px2rem(-160) no-repeat;
+  background-size: px2rem(500) px2rem(600);
+  margin-top: px2rem(20);
+}
+
+.top-shadow {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .15);
+}
+
+//�ֲ�ͼҳ��
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+}
+
+//����
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, .7);
+}
+
+.popup {
+  width: px2rem(580);
+  border-radius: px2rem(10);
+  color: #fff;
+  margin: 0 auto;
+  margin-top: px2rem(200);
+  background: #fff;
+  position: relative;
+}
+.close-btn{
+  position: absolute;
+  right: px2rem(10);
+  top: px2rem(10);
+  @include a-con(px2rem(48), px2rem(48));
+  background: url("../img/icon.png") px2rem(-74) px2rem(-344) no-repeat;
+  background-size: px2rem(500) px2rem(600);
+}
+
+.tip {
+  padding: 0 px2rem(30) 0 px2rem(30);
+  height: px2rem(100);
+  line-height: px2rem(100);
+  background: rgba(0, 0, 0, .7);
+  border-radius: px2rem(10);
+  font-size: px2rem(24);
+  color: #fff;
+  text-align: center;
+  z-index: 3000;
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translateX(px2rem(-150));
+  animation: fadeInOut ease-in-out 3s;
+  opacity: 0;
+}
+
+//��Ʒ�б�
+.goods-selected {
+  font-size: px2rem(24);
+  h1 {
+    font-size: px2rem(32);
+    padding: px2rem(24);
+  }
+  .selected-list {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: px2rem(16);
+    padding: px2rem(20) 0 px2rem(20) 0;
+    background: #fff;
+    @include padding;
+    span.price {
+        @extend .right;
+    }
+    > div {
+      margin-top: px2rem(10);
+    }
+  }
+  .total {
+    padding-right: px2rem(24);
+    font-size: px2rem(30);
+    @extend .right;
+    span {
+      &:nth-child(2) {
+        color: $active-color;
+      }
+    }
+  }
+  .remark {
+    height: px2rem(40);
+    line-height: px2rem(40);
+    input {
+      width: 86%;
+      height: 100%;
+      border-radius: px2rem(4);
+      font-size: px2rem(24);
+      padding: px2rem(4) px2rem(10) px2rem(4) px2rem(10);
+    }
+    input::-webkit-input-placeholder {
+      color: #dfdfdf;
+    }
+  }
+}
+.btn{
+  margin: px2rem(100) auto 0 auto;
+  bottom: px2rem(30);
+  width: 70%;
+  height: px2rem(90);
+  line-height: px2rem(90);
+  border-radius: px2rem(10);
+  background: $active-color;
+  color: #fff;
+  font-size: px2rem(34);
+  text-align: center;
+}

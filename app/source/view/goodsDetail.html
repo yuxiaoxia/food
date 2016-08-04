@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>详情展示</title>
+    <link rel="stylesheet" href="../build/css/swiper-3.2.7.min.css"/>
+    <link rel="stylesheet" href="../build/css/goodsDetail.min.css/">
+    <script src="../public/hotcss.js"></script>
+	  <script src="../tpl/handlebars.runtime.js"></script>
+	  <script src="../tpl/templates.js"></script>
+</head>
+<body>
+<div id="goodsDetail">
+    <div class="back-warp">
+        <a href="goodsList.html" class="back"></a>
+    </div>
+</div>
+<script src="../build/js/goodsDetail.js"></script>
+<script src="../public/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: 3000,
+        slidesPerView: 2,
+        centeredSlides: true,
+        paginationClickable: true,
+//        spaceBetween: 30,
+        grabCursor: true
+//        freeMode: true
+    });
+</script>
+</body>
+</html>

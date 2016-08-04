@@ -1,0 +1,72 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统" />
+<style>
+  .edit input {
+    border: none;
+  }
+
+  .btn-center {
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  #height-60 {
+    height: 60px;
+  }
+</style>
+<include file="Common:nav" />
+<div class="dl-con">
+  <div class="con-width dl-tab-slide row">
+    <h4 class="nav-tit">
+      桌台管理
+      <div class="cutline"></div>
+    </h4>
+    <ul>
+      <li class="slide-tab" data-slide="tab1">座位列表</li>
+      <li class="slide-tab" data-slide="tab2">添加座位</li>
+    </ul>
+  </div>
+  <div class="dl-tab-content">
+    <div class="dl-nav-bar">
+      <ul id="dl-nav-bar-tit">
+        <li class="dl-nav-bar-select nav-bar-tit" data-slide="tab1">
+          <span class='bar-tit'>
+            座位列表
+          </span>
+          <span class='sub-tab-closeBtn'></span>
+        </li>
+      </ul>
+    </div>
+    <div class="dl-nav-con">
+      <div class="tab-content tab-wraped" id="tab-con">
+        <div class="tab-pane active" data-slide="tab1" data-href="__URL__/seatlist">
+          <include file="Seat:seatlist" />
+        </div>
+        <div class="tab-pane tab-none" data-slide="tab2" data-href="__URL__/add">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sui-loading loading-inline loading" id="loading" style="display: none">
+  <i class="sui-icon icon-pc-loading"></i>
+  <span>正在加载中</span>
+</div>
+<script>
+  $(document).ready(function() {
+    $(".nav-orderseat").parent().addClass("dl-selected");
+    if (!($("#edit-modal").length > 0)) {
+      $.ajax({
+        type: 'get',
+        url: "Seat/edit",
+        success: function(data) {
+          $("#table").after(data);
+        }
+      });
+    }
+  });
+</script>
+
+<!-- 引入底部文件 -->
+<include file="Common:footer" />

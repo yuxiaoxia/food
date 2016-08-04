@@ -1,0 +1,141 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统" />
+<style>
+  #container {
+    float: left;
+    margin-right: 10px;
+  }
+
+  #container2 {
+    float: left;
+  }
+</style>
+<script src="__JS__/highcharts.js"></script>
+<script src="__JS__/exporting.js" type="text/javascript"></script>
+<include file="Common:nav" />
+<div class="dl-con">
+  <div id="" class="con-width dl-tab-slide">
+    <h4 class="nav-tit">
+      数据统计
+      <div class="cutline"></div>
+    </h4>
+    <ul>
+      <li class="slide-tab" data-slide="tab1">数据统计</li>
+    </ul>
+  </div>
+  <div class="dl-tab-content">
+    <div class="dl-nav-bar">
+      <ul id="dl-nav-bar-tit">
+        <li class="dl-nav-bar-select nav-bar-tit" data-slide="tab1">
+          <span class="bar-tit">数据统计</span>
+          <span class="sub-tab-closeBtn"></span>
+        </li>
+      </ul>
+    </div>
+    <div class="dl-nav-con">
+      <div class="tab-content tab-wraped" id="tab-con">
+        <div class="tab-pane active">
+          <div id="container" style="width:400px;height:400px"></div>
+          <div id="container2" style="width:500px;height:400px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(".nav-cal").parent().addClass("dl-selected");
+
+
+  $(function() {
+
+    var topfoodSold = [];
+    $.ajax({
+      type: 'POST',
+      url: "__URL__/index",
+      data: {
+        "show": "foodsfenlei",
+      },
+      success: function(data) {
+        var data = JSON.parse(data);
+
+        for (var i in data) {
+          topfoodSold.push(parseInt(data[i]));
+        }
+        $('#container').highcharts({ //图表展示容器，与div的id保持一致
+          chart: {
+            type: 'column' //指定图表的类型，默认是折线图（line）
+          },
+          title: {
+            text: '菜谱类别销量' //指定图表标题
+          },
+          xAxis: {
+            categories: ['中餐', '异国风味', '小吃', '饮品'] //指定x轴分组
+          },
+          yAxis: {
+            title: {
+              text: '销量' //指定y轴的标题
+            }
+          },
+          tooltip: {
+            formatter: function() {
+              return '<b>' + this.x + '</b>: ' + this.y;
+            }
+          },
+          series: [{ //指定数据列
+            name: '菜谱分类名称', //数据列名
+            data: topfoodSold
+          }]
+        });
+      }
+    });
+  })
+  $(function() {
+    var topfoodName = [];
+    var topfoodSold = [];
+    $.ajax({
+      type: 'POST',
+      url: "__URL__/index",
+      data: {
+        "show": "foodstop",
+      },
+      success: function(data) {
+        var data = JSON.parse(data);
+
+        for (var i in data) {
+          topfoodName.push(i);
+          topfoodSold.push(parseInt(data[i]));
+        }
+
+        $('#container2').highcharts({ //图表展示容器，与div的id保持一致
+          chart: {
+            type: 'column' //指定图表的类型，默认是折线图（line）
+          },
+          title: {
+            text: '销量前10名' //指定图表标题
+          },
+          xAxis: {
+            categories: topfoodName //指定x轴分组
+          },
+          yAxis: {
+            title: {
+              text: '销量' //指定y轴的标题
+            }
+          },
+          tooltip: {
+            formatter: function() {
+              return '<b>' + this.x + '</b>: ' + this.y;
+            }
+          },
+          series: [{ //指定数据列
+            name: '菜谱名称', //数据列名
+            data: topfoodSold
+          }]
+        });
+      }
+    });
+
+
+  });
+</script>
+
+<include file="Common:footer" js="index" />

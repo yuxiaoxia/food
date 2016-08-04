@@ -1,0 +1,77 @@
+@import "../public/css/common.scss";
+
+.seat-warp{
+  margin: 0 px2rem(24);
+  margin-top: px2rem(30);
+  text-align: center;
+  font-size: px2rem(18);
+}
+.seat-tit{
+  width: px2rem(148);
+  height: px2rem(44);
+  line-height: px2rem(44);
+  text-align: center;
+  background: #fff;
+  border: 2px solid $active-color;
+  border-radius: px2rem(8);
+  color: $active-color;
+  display: inline-block;
+  margin:0 px2rem(20);
+  margin-bottom: px2rem(40);
+}
+.seat-titnow{
+  color: #fff;
+  background: $active-color;
+  border: none;
+}
+.seat-con{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  li{
+    width: px2rem(128);
+    height: px2rem(128);
+    background: #fd9f53;
+    color: #fcfafa;
+    border-radius: px2rem(8);
+    margin: px2rem(20) px2rem(5);
+
+  }
+  .seat-desc{
+    padding-top: px2rem(10)
+  }
+  .seat-status{
+    font-size: px2rem(24);
+    margin: px2rem(12) 0;
+  }
+
+
+  input{
+    width: px2rem(20);
+    background: none;
+    color: #fff;
+    font-size: px2rem(20);
+    border-bottom: 1px solid #fff;
+  }
+
+}
+.seat-select-result{
+  margin-top: px2rem(50);
+  font-size: px2rem(20);
+}
+.seat-con li.seat-selected{
+  background: #d6d6d6;
+}
+.seat-con li.seat-now{
+  background: $active-color;
+}
+
+.btn-stop{
+  background: #ccc;
+}
+#result{
+  font-size: px2rem(28);
+  color: $active-color;
+  margin: px2rem(12) px2rem(20);
+}

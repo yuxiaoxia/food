@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <title>欢迎来到华夏餐厅</title>
+  <link rel="stylesheet" href="../css/goodsList.min.css">
+  <link rel="stylesheet" href="../css/index.min.css">
+  <script src="../tpl/handlebars.runtime.js"></script>
+  <script src="../tpl/templates.js"></script>
+  <style>
+  .swiper-pagination-bullet{
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+  .swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{
+    margin: 0 0.2rem;
+  }
+  .goods-list{
+    position: relative;
+  }
+  .foods-disabled{
+    width: 22%;
+    position: absolute;
+    left:65%;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    line-height: 2.8rem;
+    text-align: center;
+    color: #fff;
+    font-size: .65rem;
+    border-radius: 50%;
+  }
+    #service-popup {
+      z-index: 9999;
+      margin-top: 13rem;
+    }
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .55rem;
+      color: #333;
+      text-align: center;
+    }
+
+    .tit-line {
+      width: 36%;
+      height: 0.08rem;
+      background: #EA8010;
+    }
+
+    .tit-icon {
+      width: 10%;
+      height: 4%;
+    }
+    .goods-list .goods-img{
+      background: #efefef;
+      height:100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="index-header" class="top">
+    <div>
+      <a href="javascript:;" class="car"></a>
+      <a href="javascript:;" class="menu"></a>
+      <div class="sub-menu" style="display: none">
+        <ul>
+          <li><a href="#">地图指引</a></li>
+          <li><a href="#">留言建议</a></li>
+          <li><a href="rest.html">餐厅介绍</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="notice">
+    <i class="notice-icon"></i>
+    <div class="notice-con swiper-container2">
+      <div class="swiper-wrapper" id="notice">
+      </div>
+    </div>
+  </section>
+  <section id="banner">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="goodsList.html">
+            <img src="../img/banner/banner1.jpg" alt="">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="goodsList.html">
+            <img src="../img/banner/banner2.jpg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="swiper-pagination" id="pages"></div>
+    </div>
+
+  </section>
+  <section class="nav">
+    <ul class="nav-con">
+      <li>
+        <a href="seat.html">
+          <img src="../img/icon/icon-01.png" alt="" />
+          <i>我要订座</i>
+        </a>
+      </li>
+      <li>
+        <a href="myOrder.html">
+          <img src="../img/icon/icon-02.png" alt="" />
+          <i>我的订单</i>
+        </a>
+      </li>
+      <li id="askCut">
+        <a href="javascript:;">
+          <img src="../img/icon/icon-03.png" alt="" />
+          <i>申请打折</i>
+        </a>
+      </li>
+      <li id="askService">
+        <a href="javascript:;">
+          <img src="../img/icon/icon-04.png" alt="" />
+          <i>联系我们</i>
+        </a>
+      </li>
+      <li>
+        <a href="goodsList.html#中餐">
+          <img src="../img/icon/icon-05.png" alt="" />
+          <i>中餐</i>
+        </a>
+      </li>
+      <li>
+        <a href="goodsList.html#异国风味">
+          <img src="../img/icon/icon-06.png" alt="" />
+          <i>异国风味</i>
+        </a>
+      </li>
+      <li>
+        <a href="goodsList.html#小吃">
+          <img src="../img/icon/icon-07.png" alt="" />
+          <i>小吃</i></a>
+      </li>
+      <li>
+        <a href="goodsList.html#饮品">
+          <img src="../img/icon/icon-08.png" alt="" />
+          <i>饮品</i></a>
+      </li>
+    </ul>
+  </section>
+  <section class="suggestion">
+    <p></p>
+    <div class="title">
+      <div class="tit-line">
+
+      </div>
+      <div class="tit-icon">
+        <img src="../img/hot.png" alt="">
+      </div>
+      <div class="">
+        为你推荐
+      </div>
+      <div class="tit-line">
+
+      </div>
+    </div>
+    <div id="foodlist">
+
+    </div>
+  </section>
+  <a href="javascript:;" class="seat">
+    <i></i>
+    <span class="seat-num">未选</span>
+  </a>
+  <div class="mask" style="display: none">
+    <div id="service-popup" class="popup">
+      <br>
+      <p>如需帮助请拨打餐厅号码：15677301109</p>
+      <a href="javascript:;" class="close-btn"></a>
+    </div>
+  </div>
+  <script src="../public/base.min.js"></script>
+  <script src="../js/index.min.js"></script>
+</body>
+</html>

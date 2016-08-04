@@ -1,0 +1,17 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统"/>
+<!-- 这里添加css -->
+<!-- 引入导航 -->
+<include file="Common:nav"/>
+订餐管理
+<script>
+$(document).ready(
+  function(){
+    var height = $(window).height()-68+"px";
+    $(".index-con").css({"min-height":height});
+    $(".nav-orderseat").parent().addClass("dl-selected");
+  }
+);
+</script>
+<!-- 引入底部文件 -->
+<include file="Common:footer"/>

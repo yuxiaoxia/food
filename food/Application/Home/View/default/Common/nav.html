@@ -1,0 +1,35 @@
+<!-- 添加导航条 -->
+</head>
+<body>
+<div class="header">
+  <div class="con-width">
+    <div class="dl-title">
+      欢迎来到华夏餐厅订餐系统
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__APP__/Admin/" title="进入管理系统" class="dl-log-quit" style="font-size:12px;">进入管理系统</a>
+    </div>
+    <div class="dl-log">欢迎您,
+      <span class="dl-log-user">{$Think.session.name}</span>
+      <a href="__APP__/Login/logout" title="退出系统" class="dl-log-quit">[退出]</a>
+      <a href="__APP__/Login/logout" title="切换账号" class="dl-log-quit">[切换账号]</a>
+    </div>
+</div>
+<div class="con-width dl-main-nav">
+  <ul id="top-nav" class="nav-list">
+      <li class="nav-item">
+        <div class="nav-item-inner nav-home"><a href="__APP__/index.html">首页</a></div>
+      </li>
+      <li>
+        <div class="nav-item-inner nav-caipu"><a href="__APP__/dcan.html">订座管理</a></div>
+      </li>
+      <li>
+        <div class="nav-item-inner nav-orderfood"><a href="__APP__/orderfood.html">订餐管理</a></div>
+      </li>
+      <li>
+        <div class="nav-item-inner nav-order"><a href="__APP__/order.html">订单管理</a></div>
+      </li>
+      <li class="nav-item">
+        <div class="nav-item-inner nav-system"><a href="__APP__/user.html">账号管理</a></div>
+      </li>
+  </ul>
+</div>
+</div>

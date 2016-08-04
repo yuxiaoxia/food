@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>我的订单</title>
+    <link rel="stylesheet" href="../css/myOrder.min.css">
+	  <script src="../tpl/handlebars.runtime.js"></script>
+	  <script src="../tpl/templates.js"></script>
+    <style>
+    #order{
+      font-size: 0.55rem;
+    }
+    #order h2{
+      font-size: 0.55rem;
+      padding: 0.3rem;
+    }
+    </style>
+</head>
+<body>
+<header class="top2 top-shadow">
+    <a href="index.html" class="back2"></a>
+    我的订单
+</header>
+<div class="goods-selected" id="order">
+    <h2 id="show"></h2>
+    <h2>座位号：<span id="seatnum"></span></h2>
+    <h2>详情：<p class="seat-desc"></p></h2>
+    <h2>顾客信息：<p class="seat-gk"></p></h2>
+    <h2>备注：<p class="gk-bz"></p></h2>
+    <h2>订单编号：<span id="orderid"></span></h2>
+    <div id="order-list">
+    </div>
+    <div class="total"><span id="total-num">0</span> 份美食 <span>￥ <span id="total-money">0</span></span></div>
+</div>
+<script src="../public/base.min.js"></script>
+<script src="../js/myOrder.min.js"></script>
+</body>
+</html>

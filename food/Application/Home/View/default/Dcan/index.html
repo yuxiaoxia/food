@@ -1,0 +1,143 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统" />
+<!-- 这里添加css -->
+<style>
+  .mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 888;
+    background: rgba(0, 0, 0, .6);
+    left: 0;
+    top: 0;
+  }
+
+  .result {
+    max-width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .result p {
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  .result-btn {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 18px;
+    cursor: pointer;
+  }
+
+  .btn-ok {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #084D84;
+    border-bottom-left-radius: 10px;
+  }
+
+  .btn-no {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #ccc;
+    border-bottom-right-radius: 10px;
+  }
+</style>
+<!-- 引入导航 -->
+<include file="Common:nav" />
+<div class="mask" style="display:none;">
+  <div class="result">
+    <p>座位预定成功，订座编号为：
+      <dpan id="result-orderseat-id"></dpan>
+    </p>
+    <p>是否订餐？</p>
+    <div class="result-btn">
+      <div class="btn-ok">是</div>
+      <div class="btn-no">否</div>
+    </div>
+  </div>
+</div>
+<div class="dl-con">
+  <div id="" class="con-width dl-tab-slide">
+    <h4 class="nav-tit">
+      订座管理
+      <div class="cutline"></div>
+    </h4>
+    <ul>
+      <li data-slide="tab1" class="slide-tab">座位预订列表</li>
+      <li data-slide="tab2" class="slide-tab">预定座位</li>
+      <!-- <li data-slide="tab3" class="slide-tab">订餐</li> -->
+    </ul>
+  </div>
+  <div class="dl-tab-content">
+    <div class="dl-nav-bar">
+      <ul id="dl-nav-bar-tit">
+        <li class="nav-bar-tit dl-nav-bar-select" data-slide="tab1">
+          <span class="bar-tit">座位预订列表</span>
+          <span class="sub-tab-closeBtn"></span>
+        </li>
+      </ul>
+    </div>
+    <div class="dl-nav-con">
+      <div class="tab-content tab-wraped" id="tab-con">
+        <div class="tab-pane active" data-slide="tab1" data-href="__URL__/slist" id="slist">
+          <include file="Dcan:Slist" />
+        </div>
+        <div class="tab-pane" data-slide="tab2" data-href="__URL__/orderSeat" id="orderSeat">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sui-loading loading-inline loading" id="loading" style="display: none">
+  <i class="sui-icon icon-pc-loading"></i>
+  <span>正在加载中</span>
+</div>
+<script>
+  $(document).ready(function() {
+    var height = $(window).height() - 68 + "px";
+    $(".index-con").css({
+      "min-height": height
+    });
+    $(".nav-caipu").parent().addClass("dl-selected");
+  });
+  $(".btn-ok").click(function() {
+    $(".mask").hide();
+    var id = $("#result-orderseat-id").html();
+    sessionStorage.setItem("orderseatid",id);
+    sessionStorage.setItem("seatid",$("#result-seatid").val());
+    window.location.href = "orderfood.html";
+  });
+  $(".btn-no").click(function() {
+    $(".mask").hide();
+    window.location.reload();
+  });
+  function fleshAjax(str, url) {
+    $.ajax({
+      type: 'get',
+      url: url,
+      beforeSend: function() {
+        $("#loading").show();
+        $(str).html("")
+      },
+      success: function(data) {
+        $("#loading").hide();
+        $(str).html(data);
+      }
+    });
+  }
+</script>
+<script src="__JS__/dcan.js"></script>
+<!-- 引入底部文件 -->
+<include file="Common:footer" />

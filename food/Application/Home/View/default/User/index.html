@@ -1,0 +1,61 @@
+<!-- 引入头文件 -->
+<include file="Common:header" title="欢迎来到后台管理系统"/>
+<style>
+.mycheckbox{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #33475f;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-right: 6px;
+  margin-bottom: -4px;
+  cursor: pointer;
+}
+.mycheckbox-checked{
+  background: url("__IMG__/check.png") center center;
+}
+</style>
+<include file="Common:nav"/>
+<div class="dl-con">
+  <div class="con-width dl-tab-slide">
+    <h4 class="nav-tit">
+      账号管理
+      <div class="cutline"></div>
+    </h4>
+    <ul>
+      <li data-slide="tab1" class="slide-tab">修改资料</li>
+      <li data-slide="tab2" class="slide-tab">修改密码</li>
+    </ul>
+  </div>
+  <div class="dl-tab-content">
+    <div class="dl-nav-bar">
+      <ul id="dl-nav-bar-tit">
+        <li class="nav-bar-tit dl-nav-bar-select" data-slide="tab1">
+          <span class="bar-tit">修改资料</span>
+          <span class="sub-tab-closeBtn"></span>
+        </li>
+      </ul>
+    </div>
+    <div class="dl-nav-con">
+      <div class="tab-content tab-wraped" id="tab-con">
+        <div class="tab-pane active" data-slide="tab1" data-href="__URL__/updatezl">
+          <include file="User:updatezl"/>
+        </div>
+        <div class="tab-pane" data-slide="tab2" data-href="__URL__/updatepass">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sui-loading loading-inline loading" id="loading" style="display: none">
+  <i class="sui-icon icon-pc-loading"></i>
+  <span>正在加载中</span>
+</div>
+<script>
+$(document).ready(function(){
+    $(".nav-system").parent().addClass("dl-selected");
+});
+</script>
+<!-- 引入底部文件 -->
+<include file="Common:footer"/>

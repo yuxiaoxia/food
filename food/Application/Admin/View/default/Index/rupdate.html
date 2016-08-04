@@ -1,0 +1,74 @@
+<form class="sui-form sui-validate" id="rest-edit">
+  <input type="hidden" name="id">
+  <table class="sui-table table-bordered">
+    <foreach name="data1" item="data1">
+      <tr>
+        <td style="width: 100px;">餐厅名称</td>
+        <td><input type="text" name="name" class="input-medium" value="{$data1.name}" data-rules="required"></td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">餐厅注册时间</td>
+        <td><input type="date" name="time" class="input-medium" value="{$data1.time}" data-rules="required"disabled="true"></td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">创始人</td>
+        <td><input type="text" name="founders" class="input-medium" value="{$data1.founders}"data-rules="required"disabled="true"></td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">餐馆类型</td>
+        <td><input type="text" name="type" class="input-xlarge" value="{$data1.type}" data-rules="required" style="width:90%">
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">餐馆简介</td>
+        <td>
+          <textarea name="brief" rows="8" cols="140" data-rules="required" name="brief">
+            {$data1.brief}
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 100px;">特色服务</td>
+        <td><input type="text" name="feature" class="input-xlarge" value="{$data1.feature}" data-rules="required" style="width:90%"></td>
+      </tr>
+  </foreach>
+    <tr>
+      <td style="width: 100px;">餐厅图片</td>
+      <td>
+        <ul class="sui-row-fluid">
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest1.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest2.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest3.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2">
+            <div class="img-round">
+              <img src="__STATIC__/images/rest/rest4.jpg" alt="">
+            </div>
+          </li>
+          <li class="span2" id="empty-img">
+            <div class="img-round" id="img-desc">
+              <label class="upload-label">
+                <input class="hide" type="file" id="imgUpload">
+                <img src="__IMG__/text.png" alt="" id="imginput">
+              </label>
+            </div>
+          </li>
+        </ul>
+      </td>
+    </tr>
+</table>
+<button type="button" class="sui-btn btn-primary" id="rest-edit-ok">确定</button>
+<button type="button" class="sui-btn btn-primary" id="rest-edit-cancel">取消</button>
+</form>
+<script src="__JS__/rest.js"></script>

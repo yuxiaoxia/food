@@ -1,0 +1,1307 @@
+[ 2016-04-19T12:48:54+08:00 ] 127.0.0.1 /food/home.php/Login/login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003318s ]
+ERR: _CONTROLLER_NOT_EXIST_:Home.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:49:05+08:00 ] 127.0.0.1 /food/index.php/
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:49:40+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:49:56+08:00 ] 127.0.0.1 /food/
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:50:15+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:53:20+08:00 ] 127.0.0.1 /food/home.php/Login/login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005384s ]
+ERR: _CONTROLLER_NOT_EXIST_:Home.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:53:24+08:00 ] 127.0.0.1 /food/index.php/Login/login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.048335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048596s ]
+
+[ 2016-04-19T12:53:31+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:54:19+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:54:22+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:54:29+08:00 ] 127.0.0.1 /food/index.php/index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:54:33+08:00 ] 127.0.0.1 /food/index.php/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:54:56+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:07+08:00 ] 127.0.0.1 /food/index.php/index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:13+08:00 ] 127.0.0.1 /food/index.php/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:41+08:00 ] 127.0.0.1 /food/Home/index.php/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:45+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:49+08:00 ] 127.0.0.1 /food/home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:55+08:00 ] 127.0.0.1 /food/home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:55:59+08:00 ] 127.0.0.1 /food/
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:57:04+08:00 ] 127.0.0.1 /tp/
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:57:10+08:00 ] 127.0.0.1 /tp/index.php
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:34+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:37+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:54+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:57+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:58+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004842s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009321s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:58+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003007s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005568s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:58+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008355s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:58+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004103s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:58+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:58:58+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004111s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006949s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:59:14+08:00 ] 127.0.0.1 /food/Home/index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T12:59:20+08:00 ] 127.0.0.1 /food/Home/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T13:00:25+08:00 ] 127.0.0.1 /food/Home/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T13:02:12+08:00 ] 127.0.0.1 /food/Home/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:34:13+08:00 ] 127.0.0.1 /food/
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005151s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:35:26+08:00 ] 127.0.0.1 /food/Home/
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:35:40+08:00 ] 127.0.0.1 /food/Home/index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:35:45+08:00 ] 127.0.0.1 /food/Home/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:35:50+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:36:06+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:37:27+08:00 ] 127.0.0.1 /food/Home/Login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003770s ]
+
+[ 2016-04-19T21:37:27+08:00 ] 127.0.0.1 /food/Login/verify.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002810s ]
+
+[ 2016-04-19T21:37:32+08:00 ] 127.0.0.1 /food/Home/index.php/Login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:37:37+08:00 ] 127.0.0.1 /food/Home/Login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-04-19T21:37:37+08:00 ] 127.0.0.1 /food/Login/verify.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-04-19T21:40:06+08:00 ] 127.0.0.1 /food/Home/Tips
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+NOTIC: [2048] Declaration of Home\Controller\TipsController::show() should be compatible with that of Think\Controller::show() E:\WWW\food\Application\Home\Controller\TipsController.class.php 第 4 行.
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:40:15+08:00 ] 127.0.0.1 /food/Home/Index/tips
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+ERR: _TEMPLATE_NOT_EXIST_:./Application/Home/View/default/Common/dispatch_jump.html
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:40:24+08:00 ] 127.0.0.1 /food/Home/Index/Tips
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+ERR: _TEMPLATE_NOT_EXIST_:./Application/Home/View/default/Common/dispatch_jump.html
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:30+08:00 ] 127.0.0.1 /food/Home/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004552s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:35+08:00 ] 127.0.0.1 /food/Home/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:37+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:42+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:43+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003930s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:44+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011496s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015538s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:45+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051653s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:46+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005925s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008927s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:47+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003629s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011017s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:48+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006180s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:49+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:50+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003748s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:51+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003084s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:42:52+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:43:33+08:00 ] 127.0.0.1 /food/Home
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006707s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:43:37+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006363s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:43:42+08:00 ] 127.0.0.1 /food/Home/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006684s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:43:48+08:00 ] 127.0.0.1 /food/Home/Login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004094s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2016-04-19T21:43:48+08:00 ] 127.0.0.1 /food/Login/verify.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003677s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004523s ]
+
+[ 2016-04-19T21:47:01+08:00 ] 127.0.0.1 /food/index.php/Login/register
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003864s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004355s ]
+
+[ 2016-04-19T21:47:05+08:00 ] 127.0.0.1 /food/index.php/Login
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004405s ]
+
+[ 2016-04-19T21:47:05+08:00 ] 127.0.0.1 /food/Login/verify.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2016-04-19T21:47:10+08:00 ] 127.0.0.1 /food/index.php
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:47:14+08:00 ] 127.0.0.1 /food/index.php%E3%80%81Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003193s ]
+ERR: _CONTROLLER_NOT_EXIST_:Index.php、Index
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:47:20+08:00 ] 127.0.0.1 /food/index.php/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003721s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:48:18+08:00 ] 127.0.0.1 /food/index.php/Index
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: person E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+NOTIC: [8] Undefined variable: data E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 85 行.
+NOTIC: [8] Undefined variable: data1 E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 130 行.
+NOTIC: [8] Undefined variable: img E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003530s ]
+
+[ 2016-04-19T21:48:21+08:00 ] 127.0.0.1 /food/index.php/order.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2016-04-19T21:48:26+08:00 ] 127.0.0.1 /food/index.php/seat.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003748s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:48:30+08:00 ] 127.0.0.1 /food/index.php/seat.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:48:33+08:00 ] 127.0.0.1 /food/index.php/caipu.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2016-04-19T21:48:36+08:00 ] 127.0.0.1 /food/index.php/seat.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:48:40+08:00 ] 127.0.0.1 /food/index.php/tips.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+NOTIC: [2048] Declaration of Home\Controller\TipsController::show() should be compatible with that of Think\Controller::show() E:\WWW\food\Application\Home\Controller\TipsController.class.php 第 4 行.
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:48:59+08:00 ] 127.0.0.1 /food/index.php/tips.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003725s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006503s ]
+NOTIC: [2048] Declaration of Home\Controller\TipsController::show() should be compatible with that of Think\Controller::show() E:\WWW\food\Application\Home\Controller\TipsController.class.php 第 4 行.
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:49:02+08:00 ] 127.0.0.1 /food/index.php/news.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+ERR: _CONTROLLER_NOT_EXIST_:News
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:49:41+08:00 ] 127.0.0.1 /food/index.php/seat.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003924s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-19T21:49:44+08:00 ] 127.0.0.1 /food/index.php/index.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined variable: person E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+NOTIC: [8] Undefined variable: data E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 85 行.
+NOTIC: [8] Undefined variable: data1 E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 130 行.
+NOTIC: [8] Undefined variable: img E:\WWW\food\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003150s ]
+
+[ 2016-04-19T21:50:17+08:00 ] 127.0.0.1 /food/index.php/index.html
+NOTIC: [2] include(E:\WWW\food\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\food\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\food\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004326s ]
+

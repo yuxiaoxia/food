@@ -1,0 +1,151 @@
+@import "../public/css/common.scss";
+body{
+  background: #fff;
+}
+#index-header{
+  >div{
+    padding: px2rem(14) 0 px2rem(14) 0;
+    .menu{
+      @extend .left;
+      @include a-con(px2rem(54), px2rem(40));
+      background: url("../img/icon.png") px2rem(0) px2rem(0) no-repeat;
+      background-size: px2rem(500) px2rem(600);
+    }
+    .car{
+      @extend .right;
+      //@include i-com(px2rem(54), px2rem(40));
+      //background: url("../img/icon.png") px2rem(0) px2rem(-90) no-repeat;
+      //background-size: px2rem(500) px2rem(600);
+      @include a-con(px2rem(40), px2rem(40));
+      background: url("../img/icon.png") px2rem(0) px2rem(-78) no-repeat;
+      background-size: px2rem(500) px2rem(600);
+    }
+  }
+  .sub-menu{
+    position: absolute;
+    font-size: px2rem(18);
+    top: px2rem(60);
+    z-index: 100;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    li{
+      padding: px2rem(12) px2rem(26) px2rem(12) px2rem(26);
+      border-bottom: 1px solid #cdcdcd;
+      &:last-child{
+        border-bottom: none;
+      }
+    }
+  }
+}
+.notice{
+  padding: px2rem(4) 0 px2rem(4) 0;
+  @include padding;
+  font-size: px2rem(24);
+  color: #fff;
+  text-align: center;
+  background: #000;
+  position: relative;
+  .notice-icon{
+    position: absolute;
+    @include a-con(px2rem(30), px2rem(30));
+    background: url("../img/icon.png") px2rem(0) px2rem(-40) no-repeat;
+    background-size: px2rem(500) px2rem(600);
+    right: px2rem(24);
+    top: px2rem(10);
+  }
+  .notice-con{
+    height: px2rem(40);
+    padding: px2rem(4) 0 px2rem(4) 0;
+
+    overflow: hidden;
+  }
+}
+
+#pages{
+  bottom: px2rem(4);
+  .swiper-pagination-bullet{
+    background: #fff;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background: $active-color;
+  }
+}
+
+.nav{
+  @include clearfix;
+  padding-top: px2rem(24);
+  .nav-con{
+    text-align: center;
+    li{
+      @extend .left;
+      width: 25%;
+      font-size: px2rem(18);
+      text-align: center;
+      margin-bottom: px2rem(24);
+      img{
+        width: px2rem(90);
+        height: px2rem(90);
+      }
+      i{
+        padding-top: px2rem(6);
+        display: block;
+      }
+    }
+  }
+}
+.seat{
+  position: fixed;
+  right: px2rem(26);
+  bottom: px2rem(110);
+  width: px2rem(110);
+  height: px2rem(110);
+  line-height: px2rem(96);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  i {
+    margin-top: px2rem(30);
+    @include a-con(px2rem(60), px2rem(60));
+    background: url("../img/icon.png") px2rem(0) px2rem(-150) no-repeat;
+    background-size: px2rem(500) px2rem(600);
+  }
+  .seat-num{
+    @include i-com(px2rem(50), px2rem(50),$active-color);
+    font-size: px2rem(20);
+    position: absolute;
+    left: 50%;
+    top: 10%;
+  }
+}
+
+#service-popup{
+  font-size: px2rem(24);
+  text-align: center;
+  >p{
+    color: #333;
+    padding-bottom: px2rem(24);
+    &:nth-child(1){
+      font-size: px2rem(30);
+      padding-top: px2rem(40);
+    }
+  }
+  >div{
+    height: px2rem(100);
+    line-height: px2rem(100);
+    color: #fff;
+    >div{
+      @extend .left;
+      width: 50%;
+      &:nth-child(1){
+        background: $active-color;
+        color: #fff;
+        border-bottom-left-radius: px2rem(10);
+      }
+      &:nth-child(2){
+        background: #ccc;
+        border-bottom-right-radius: px2rem(10);
+      }
+    }
+  }
+}

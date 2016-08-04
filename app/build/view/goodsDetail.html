@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <title>详情展示</title>
+  <link rel="stylesheet" href="../css/goodsDetail.min.css">
+  <script src="../tpl/handlebars.runtime.js"></script>
+  <script src="../tpl/templates.js"></script>
+  <style>
+  .detail-img{
+    height:10rem;
+  }
+  .goods-introduce {
+    padding: .6rem;
+    margin-bottom: 10%;
+  }
+    .btn-hide {
+      visibility: hidden;
+    }
+
+    .goBuy {
+      width: 40%;
+      background: #FC4A00;
+      text-align: center;
+    }
+
+    .account {
+      width: 16rem;
+      height: 1.95rem;
+      background: rgba(0, 0, 0, .75);
+      color: #fff;
+      font-size: .6rem;
+      position: fixed;
+      bottom: -2px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .account>div:nth-child(1) {
+      width: 2.75rem;
+      padding-left: .6rem;
+      position: relative;
+    }
+
+    .account>div {
+      height: 1.95rem;
+      line-height: 1.95rem;
+    }
+
+    .account>div:nth-child(1) i {
+      display: inline-block;
+      width: 1.35rem;
+      height: 1.95rem;
+      background: url(../img/icon.png) 0 -8.25rem no-repeat;
+      background-size: 12.5rem 15rem;
+    }
+
+    .account>div:nth-child(1) .goods-total-num {
+      position: absolute;
+      top: 0;
+      left: 1.5rem;
+      width: 1rem;
+      height: 1rem;
+      font-size: .45rem;
+      line-height: 1rem;
+      text-align: center;
+      border-radius: 50%;
+      background: #fc4a00;
+      color: #fff;
+    }
+
+    .account>div:nth-child(2) {
+      width: 7.25rem;
+    }
+
+    .account>div:nth-child(3) {
+      width: 6rem;
+      text-align: center;
+      background: #fc4a00;
+    }
+
+    .select-btn {
+      display: inline-block;
+      width: 1.6rem;
+      height: 1.6rem;
+      text-align: center;
+      line-height: 1.5rem;
+      border-radius: 50%;
+      margin: 0 .1rem;
+    }
+
+    .add-goods {
+      background: #fc4a00;
+      color: #fff;
+    }
+
+    .cut-goods {
+      background: #fff;
+      color: #fc4a00;
+      border: 1px solid #fc4a00;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="goodsDetail">
+
+  </div>
+  <script src="../public/base.min.js"></script>
+  <script src="../js/goodsDetail.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: 3000,
+      slidesPerView: 2,
+      centeredSlides: true,
+      paginationClickable: true,
+      //        spaceBetween: 30,
+      grabCursor: true
+        //        freeMode: true
+    });
+  </script>
+</body>
+
+</html>

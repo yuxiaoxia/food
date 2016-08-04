@@ -1,0 +1,88 @@
+@import "../public/css/common.scss";
+
+html, body {
+  background: #fff;
+}
+
+.back-warp {
+  width: px2rem(68);
+  height: px2rem(68);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  position: absolute;
+  left: px2rem(24);
+  top: px2rem(4);
+  text-align: center;
+  line-height: px2rem(68);
+  z-index: 2000;
+}
+.back{
+  background: url("../img/icon.png") px2rem(-80) px2rem(-114) no-repeat;
+  background-size: px2rem(500) px2rem(600);
+}
+
+.goods-introduce{
+  padding: px2rem(24);
+  h1{
+    font-size: px2rem(32);
+    color: $active-color;
+  }
+  p{
+    font-size: px2rem(24);
+    line-height: px2rem(60);
+  }
+  .jianjie{
+    margin-top: px2rem(-60);
+    padding-left: px2rem(96);
+  }
+}
+.swiper-container {
+  width: 100%;
+  height: 600px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 33%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 680px){
+  .goods-introduce{
+    .jianjie{
+      padding-left: px2rem(80);
+    }
+  }
+}
+@media only screen and (min-device-width: 680px) and (max-device-width: 900px){
+  .goods-introduce{
+    .jianjie{
+      padding-left: px2rem(70);
+    }
+  }
+}

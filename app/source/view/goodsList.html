@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>菜谱列表</title>
+    <link rel="stylesheet" href="../build/css/swiper-3.2.7.min.css"/>
+    <link rel="stylesheet" href="../build/css/goodsList.min.css/">
+    <script src="../public/hotcss.js"></script>
+	  <script src="../tpl/handlebars.runtime.js"></script>
+	  <script src="../tpl/templates.js"></script>
+</head>
+<body>
+<header class="top" id="goodslist-top">
+    <a href="index.html" class="back"></a>
+    <i></i>
+    <h2>菜谱列表</h2>
+</header>
+<section class="sort top-shadow">
+    <ul>
+        <li id="list-title">最新优惠<i></i></li>
+        <li>价格 <span class="down"><i></i><i></i></span></li>
+        <li>销量 <span class="up"><i></i><i></i></span></li>
+    </ul>
+    <div class="sub-list" style="display: none">
+        <ul>
+            <li>中餐</li>
+            <li>西餐</li>
+            <li>果盘饮品</li>
+            <li>小吃甜点</li>
+        </ul>
+    </div>
+</section>
+<section class="warp">
+    <div class="list-warp">
+
+    </div>
+</section>
+<section class="account">
+    <div>
+        <i></i>
+        <div class="goods-total-num">0</div>
+    </div>
+    <div>
+        总计：<span id="totalmoney"> 0 </span>元
+    </div>
+    <div>去结算</div>
+</section>
+<script src="../build/js/goodsList.js"></script>
+
+</body>
+</html>

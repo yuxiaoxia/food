@@ -1,0 +1,210 @@
+[ 2016-04-07T15:39:36+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:39:42+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:39:44+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:39:44+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:39:44+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:39:44+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:39:45+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:39+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:40+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:41+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:41+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:41+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:43+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:44+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:44+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:45+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:40:45+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:41:09+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:41:09+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:41:09+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-04-07T15:41:16+08:00 ] 127.0.0.1 /tp/index.php/Login
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: _MODULE_NOT_EXIST_:Login
+NOTIC: [2] include(./error.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './error.html' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>欢迎来到华夏餐厅</title>
+    <link rel="stylesheet" href="../build/css/swiper-3.2.7.min.css"/>
+    <link rel="stylesheet" href="../build/css/index.min.css/">
+    <script src="../public/hotcss.js"></script>
+</head>
+<body>
+<header id="index-header" class="top">
+    <div>
+        <a href="buyNow.html" class="car"></a>
+        <a href="javascript:;" class="menu"></a>
+        <div class="sub-menu" style="display: none">
+            <ul>
+                <li><a href="#">地图指引</a></li>
+                <li><a href="#">留言建议</a></li>
+                <li><a href="#">餐厅介绍</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="notice">
+    <i class="notice-icon"></i>
+    <div class="notice-con swiper-container2">
+        <div class="swiper-wrapper" id="notice">
+        </div>
+    </div>
+</section>
+<section id="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="goodsList.html">
+                    <img src="../img/banner/banner1.jpg" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="goodsList.html">
+                    <img src="../img/banner/banner2.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination" id="pages"></div>
+    </div>
+
+</section>
+<section class="nav">
+    <ul class="nav-con">
+        <li>
+            <a href="seat.html">
+                <img src="../img/icon/icon-01.png" alt=""/>
+                <i>我要订座</i>
+            </a>
+        </li>
+        <li>
+            <a href="myOrder.html">
+                <img src="../img/icon/icon-02.png" alt=""/>
+                <i>我的订单</i>
+            </a>
+        </li>
+        <li id="askCut">
+            <a href="javascript:;">
+                <img src="../img/icon/icon-03.png" alt=""/>
+                <i>申请打折</i>
+            </a>
+        </li>
+        <li id="askService">
+            <a href="javascript:;">
+                <img src="../img/icon/icon-04.png" alt=""/>
+                <i>呼叫服务</i>
+            </a>
+        </li>
+        <li>
+            <a href="goodsList.html">
+                <img src="../img/icon/icon-05.png" alt=""/>
+                <i>中餐</i>
+            </a>
+        </li>
+        <li>
+            <a href="goodsList.html">
+                <img src="../img/icon/icon-06.png" alt=""/>
+                <i>西餐</i>
+            </a>
+        </li>
+        <li>
+            <a href="goodsList.html">
+                <img src="../img/icon/icon-07.png" alt=""/>
+                <i>果盘饮品</i></a>
+        </li>
+        <li>
+            <a href="goodsList.html">
+                <img src="../img/icon/icon-08.png" alt=""/>
+                <i>小吃甜点</i></a>
+        </li>
+    </ul>
+</section>
+<section class="suggestion">
+    <img src="../img/a.jpg" alt=""/>
+</section>
+<a href="buyNow.html" class="seat">
+    <i></i>
+    <span class="seat-num">未选</span>
+</a>
+<div class="mask" style="display: none">
+    <div id="service-popup" class="popup">
+        <p>确定呼叫服务员?</p>
+        <p>(可为你点菜、加菜、结账、收拾桌子)</p>
+        <p id="select">您的座位号为：A1 </p>
+        <div>
+            <div id="yes">是</div>
+            <div id="no">否</div>
+        </div>
+        <a href="javascript:;" class="close-btn"></a>
+    </div>
+</div>
+<script src="../js/index.js"></script>
+<script src="../public/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: 3000,
+        pagination: '.swiper-pagination',
+    });
+    var mySwiper = new Swiper('.swiper-container2', {
+        loop: true,
+        autoplay: 2500,
+        direction: 'vertical',
+    });
+
+</script>
+</body>
+</html>

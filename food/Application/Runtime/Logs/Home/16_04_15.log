@@ -1,0 +1,73 @@
+[ 2016-04-15T09:53:07+08:00 ] 127.0.0.1 /tp/index.php/
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `food_rest` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `food_rest`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `food_img` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `food_img` WHERE ( id=0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: person E:\WWW\tp\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T17:30:48+08:00 ] 127.0.0.1 /tp/index.php/Tips/show
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\TipsController::show() should be compatible with that of Think\Controller::show() E:\WWW\tp\Application\Home\Controller\TipsController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-15T17:30:54+08:00 ] 127.0.0.1 /tp/index.php/Tips/show
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\TipsController::show() should be compatible with that of Think\Controller::show() E:\WWW\tp\Application\Home\Controller\TipsController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T17:31:02+08:00 ] 127.0.0.1 /tp/index.php/Tips/show
+NOTIC: [2] include(E:\WWW\tp\ThinkPHP/Lang/zh_cn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening 'E:\WWW\tp\ThinkPHP/Lang/zh_cn.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\tp\ThinkPHP\Library\Think\Think.class.php 第 86 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\TipsController::show() should be compatible with that of Think\Controller::show() E:\WWW\tp\Application\Home\Controller\TipsController.class.php 第 4 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

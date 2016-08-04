@@ -1,0 +1,133 @@
+<div class="sui-msg msg-info">
+  <div class="msg-con">座位状态为0表示该座位未被顾客选择，0为默认状态</div>
+  <s class="msg-icon"></s>
+</div>
+<br>
+<br>
+<table class="sui-table table-bordered" id="table">
+  <thead>
+    <tr>
+      <th>座位id</th>
+      <th>座位人数</th>
+      <th>座位位置</th>
+      <th>座位描述</th>
+      <th>座位状态</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody>
+    <foreach name="data" item="data">
+      <tr id="">
+        <td>
+          {$data.id}
+        </td>
+        <td class="seatnum">
+          {$data.seatnum}
+        </td>
+        <td class="pos">
+          <if condition="$data.pos eq '1'">
+            包间
+            <else/> 大厅
+          </if>
+        </td>
+        <td class="desc">
+          {$data.desc}
+        </td>
+        <td class="status">
+          {$data.status}
+        </td>
+        <td>
+          <if condition="$data.pos eq '1'">
+            <input type="hidden" value="{$data.id};{$data.seatnum};包间;{$data.desc}">
+            <else/>
+            <input type="hidden" value="{$data.id};{$data.seatnum};大厅;{$data.desc}">
+          </if>
+          <button data-toggle="modal" data-target="#edit-modal" data-keyboard="false" class="sui-btn btn-lg seat-edit-btn" data-id="{$data.id}" data-status="{$data.status}">编辑</button>
+          <button class="sui-btn btn-lg update-seatstatus-btn" data-id="{$data.id}" data-status="{$data.status}">修改座位状态</button>
+          <a href="javascript:void(0);" class="sui-btn btn-default seat-del-btn" data-id="{$data.id}">删除</a>
+        </td>
+      </tr>
+    </foreach>
+  </tbody>
+</table>
+<script>
+  //删除座位
+  $(".seat-del-btn").unbind("click");
+  $("body").on("click", ".seat-del-btn", function() {
+      var id = $(this).attr("data-id");
+      var nowTips = "#seat-" + id;
+      var url = "__URL__/delete";
+      if (confirm("确定删除？")) {
+        $.ajax({
+          type: 'POST',
+          url: url,
+          data: {
+            "id": id
+          },
+          success: function(data) {
+            alert(data.info);
+            window.location.reload();
+          }
+        });
+      }
+    })
+    //编辑座位
+  $(".seat-edit-btn").unbind("click");
+  $("body").on("click", ".seat-edit-btn", function() {
+    var id = $(this).attr("data-id"); //获取当前编辑的id
+    $(".update-id").val(id);
+    var url = "__URL__/update";
+    var status = $(this).attr("data-status")
+
+    var val = $(this).siblings("input").val();
+    var strs = val.split(";");
+    $(".update").each(function(index) {
+
+      $(this).val(strs[index]);
+      if (index == 2) {
+        $(".value").text(strs[index]);
+      }
+    });
+
+    $("#ok").click(function() {
+      if ($("input[data-rules=required]").val() == "") {
+        return false;
+      }
+      var pos = $(".seat-pos").val();
+
+      $.ajax({
+        type: 'POST',
+        url: "__URL__/Update",
+        data: $('#seat-update').serialize(),
+        success: function(data) {
+          alert(data.info);
+          window.location.reload();
+        }
+      });
+    });
+  })
+  $(".update-seatstatus-btn").unbind("click");
+  $("body").on("click", ".update-seatstatus-btn", function() {
+    var id = $(this).attr("data-id");
+    var status = $(this).attr("data-status");
+    var that = $(this);
+    var updatestatus;
+    if( status == 0 ){
+      updatestatus = 1;
+    }else{
+      updatestatus = 0;
+    }
+    $.ajax({
+      type: 'POST',
+      url: "__URL__/updatestatus",
+      data: {
+        "id":id,
+        "status":updatestatus,
+      },
+      success: function(data) {
+        alert(data.info);
+        window.location.reload();
+      }
+    });
+  })
+</script>

@@ -1,0 +1,37 @@
+{{#each this}}
+<div class="back-warp">
+    <a href="goodsList.html" class="back"></a>
+</div>
+<div class="detail-img">
+      <img src="{{bimg}}" alt="" width="100%" height="400px"/>
+</div>
+
+<section class="goods-introduce">
+    <h4>价格：{{newprice}} /份</h4>
+    <h1>菜谱简介</h1>
+    <p>名称：{{Cname}}</p>
+    <p>简介：</p>
+    <p class="jianjie" style="margin-top:0">{{desc}}</p>
+    <p>标题：{{title}}</p>
+    <p>主料：{{zhuliao}}</p>
+    <p>烹饪时间：{{prtime}}</p>
+    <p>口味：{{kouwei}}</p>
+    <p>功效：{{gongxiao}}</p>
+</section>
+<div clsss="goods-selected" style="position: fixed;width: 40%;height: 10%;bottom:53%;right:-10%; z-index:9999;color:#333">
+  <a href="javascript:;" class="cut-goods select-btn btn-hide">-</a>
+  <a href="javascript:;" class="add-goods select-btn">+</a>
+  <input type="hidden" name="name" value="" data-id="{{id}}" data-price="{{newprice}}" data-name="{{Cname}}" id="save"/>
+</div>
+<section class="account">
+    <div>
+        <i></i>
+        <div class="goods-total-num">0</div>
+    </div>
+    <div>
+        总计：<span id="totalmoney"> 0 </span>元
+    </div>
+    <input type="hidden" name="food" data-id="{{id}}" value="foods-id={{id}}">
+    <div class="goBuy">确认</div>
+</section>
+{{/each}}

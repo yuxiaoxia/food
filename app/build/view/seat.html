@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>在线选座</title>
+    <link rel="stylesheet" href="../css/seat.min.css">
+    <script src="../tpl/handlebars.runtime.js"></script>
+    <script src="../tpl/templates.js"></script>
+    <style>
+    .popup{
+      color:#333;
+      font-size: 0.5rem;
+      height: 9rem;
+      z-index: 9999;
+    }
+    .popup p{
+
+      text-align: center;
+    }
+    .popup .seat-input{
+      width: 80%;
+      height: 1rem;
+      margin: 0.6rem auto;
+
+    }
+    .seat-input input{
+      width: 100%;
+      border: 1px solid #333;
+      padding: 0.2rem;
+      font-size: 0.5rem;
+      color: #333;
+      border-radius: 10px;
+      margin:10px 0;
+    }
+    .seat-input textarea{
+      border: 1px solid #333;
+      padding: 0.2rem;
+      font-size: 0.5rem;
+      color: #333;
+      border-radius: 10px;
+      margin:10px 0;
+    }
+    .btn-warp{
+      width:100%;
+      height: 2rem;
+      line-height: 2rem;
+      margin-top: 6rem;
+      text-align: center;
+      font-size: 0.5rem;
+    }
+    #ok{
+      width: 50%;
+      height: 2rem;
+      float: left;
+      background: #fc4a00;
+      color: #fff;
+    }
+    #no{
+      width: 50%;
+      height: 2rem;
+      float: left;
+      background: #ccc;
+      color: #fff;
+    }
+    </style>
+</head>
+<body>
+<header class="top2 top-shadow">
+    <a href="index.html" class="back2"></a>
+    在线选座
+</header>
+<div>
+<div class="seat-warp">
+    <span class="seat-tit seat-titnow">大厅</span>
+    <span class="seat-tit">包间</span>
+    <div id="seat-dating">
+    </div>
+    <div id="seat-yazuo">
+    </div>
+</div>
+
+<div id="result">座位：</div>
+
+<section class="btn btn-stop">确定</section>
+</div>
+<div class="mask" style="display:none">
+    <div id="seat-popup" class="popup">
+      <br>
+        <p>为方便您订餐请下面填写信息</p>
+        <div class="seat-input">
+          <input type="text" placeholder="请填写姓名" id="name">
+          <br>
+          <input type="text" placeholder="请填写手机号码" id="phone">
+          <br>
+          <textarea rows="3" cols="44" placeholder="请填写备注信息" id="bz"></textarea>
+
+        </div>
+        <div class="btn-warp">
+            <div id="ok">是</div>
+            <div id="no">否</div>
+        </div>
+        <a href="javascript:;" class="close-btn"></a>
+    </div>
+</div>
+<script src="../public/base.min.js"></script>
+<script src="../js/seat.min.js"></script>
+</body>
+</html>

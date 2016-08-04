@@ -1,0 +1,69 @@
+@import "../public/css/common.scss";
+
+html,body{
+  background: #efefef;
+}
+.goods-selected{
+  .edit{
+    padding: 0 px2rem(50) 0 px2rem(50);
+    margin-bottom: px2rem(-8);
+  }
+  .delect{
+    @include a-con(px2rem(60), px2rem(40));
+    background: url("../img/icon.png") px2rem(-68) px2rem(-228) no-repeat;
+    background-size: px2rem(500) px2rem(600);
+  }
+  .edit-num{
+    @extend .right;
+    width: px2rem(94);
+    height: px2rem(40);
+    line-height: px2rem(40);
+    font-size: px2rem(14);
+    >a{
+      width: px2rem(43);
+      height: 100%;
+      display: inline-block;
+      color: $active-color;
+      text-align: center;
+      &:nth-child(1){
+        border: 2px solid $active-color;
+        border-bottom-left-radius: px2rem(6);
+        border-top-left-radius: px2rem(6);
+      }
+      &:nth-child(2){
+        border: 2px solid $active-color;
+        border-left: none;
+        border-bottom-right-radius: px2rem(6);
+        border-top-right-radius: px2rem(6);
+        margin-left: px2rem(-6);
+      }
+    }
+  }
+}
+.btn{
+  margin: px2rem(100) auto 0 auto;
+  bottom: px2rem(30);
+  width: 70%;
+  height: px2rem(90);
+  line-height: px2rem(90);
+  border-radius: px2rem(10);
+  background: $active-color;
+  color: #fff;
+  font-size: px2rem(34);
+  text-align: center;
+}
+
+.add-foods{
+  font-size: px2rem(24);
+  font-weight: bold;
+  a{
+    @include i-com(px2rem(50),px2rem(50),#ff9900);
+    margin-right: px2rem(20);
+    line-height: px2rem(45);
+  }
+
+}
+.buy-tip{
+  @extend .tip;
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>我的订单</title>
+    <link rel="stylesheet" href="../build/css/swiper-3.2.7.min.css"/>
+    <link rel="stylesheet" href="../build/css/myOrder.min.css/">
+    <script src="../public/hotcss.js"></script>
+	  <script src="../tpl/handlebars.runtime.js"></script>
+	  <script src="../tpl/templates.js"></script>
+</head>
+<body>
+<header class="top2 top-shadow">
+    <a href="index.html" class="back2"></a>
+    我的订单
+</header>
+<div class="goods-selected" id="order">
+    <h1>座位号：A1</h1>
+    <h2>订单编号：<span>201602220228</span></h2>
+    <div class="selected-list">
+        <span>柠檬鸡翅柠檬鸡翅</span> &nbsp;&nbsp;&nbsp;<span> X 4 </span> <span> ￥20</span>
+        <div class="remark">备注：不加辣椒</div>
+        <div id="subtotal">小计：￥80 </div>
+    </div>
+    <div class="total"><span id="total-num">4</span> 份美食 <span id="total-money">￥80</span></div>
+</div>
+<script src="../build/js/myOrder.js"></script>
+</body>
+</html>

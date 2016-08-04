@@ -1,0 +1,63 @@
+<!-- <form class="sui-form form-dark">
+  <button type="button" class="sui-btn btn-primary" style="margin-right:30px;" id="search-all">全部菜谱</button>
+  <label for="fenlei-search">分类：</label>
+  <span class="sui-dropdown dropdown-bordered select">
+    <span class="dropdown-inner">
+      <a role="button" href="javascript:void(0);" data-toggle="dropdown" class="dropdown-toggle">
+      <input value="" name="" type="hidden" id="input-fenlei">
+      <i class="caret"></i><span>选择分类</span></a>
+  <ul role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+    <foreach name="fenleidata" item="fenleidata">
+      <li role="presentation" data-id="{$fenleidata.id}">
+        <a role="menuitem" tabindex="-1" href="javascript:void(0);" value="{$fenleidata.id}">{$fenleidata.name}</a>
+      </li>
+    </foreach>
+  </ul>
+  </span>
+  </span>
+  <button type="button" class="sui-btn btn-primary" id="search-fenlei" name="fenlei-search">搜索</button>
+</form> -->
+
+<div style="width:800px;">
+  共计： {$count} 个菜谱
+  <table class="sui-table table-bordered">
+    <thead>
+      <tr>
+        <th>菜品id</th>
+        <th>菜品名称</th>
+        <th>子分类名称</th>
+        <th>单价</th>
+        <th>销量</th>
+        <th>状态</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <foreach name="data" item="data">
+        <tr>
+          <td>{$data.id}</td>
+          <td><a href="#">{$data.cname}</a></td>
+          <td>{$data.name}</td>
+          <td>{$data.newprice}/份</td>
+          <td>{$data.sold}</td>
+          <td class="caipin-status" data-status="{$data.cstatus}">{$data.cstatus}</td>
+          <td>
+            <if condition="$data.cstatus eq '0'">
+              <button class="sui-btn btn-lg food-btn disabled" data-id="{$data.id}" data-name="{$data.cname}" data-price="{$data.newprice}" data-num="0" data-money="{$data.newprice}">
+                预定</button>
+              <else/>
+              <button class="sui-btn btn-lg food-btn order-food" data-id="{$data.id}" data-name="{$data.cname}" data-price="{$data.newprice}" data-num="0" data-money="{$data.newprice}">
+                预定</button>
+            </if>
+
+
+          </td>
+        </tr>
+      </foreach>
+    </tbody>
+  </table>
+</div>
+
+<script>
+
+</script>
