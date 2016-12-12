@@ -10,16 +10,6 @@
 ##show:项目截图
  ![image](https://github.com/weilixia/food/blob/master/show/index.png)
  
- ![image](https://github.com/weilixia/food/blob/master/show/index1.png)
- 
- ![image](https://github.com/weilixia/food/blob/master/show/index2.png)
- 
- ![image](https://github.com/weilixia/food/blob/master/show/index3.png)
- 
- ![image](https://github.com/weilixia/food/blob/master/show/index4.png)
- 
  ![image](https://github.com/weilixia/food/blob/master/show/home.png)
- 
- ![image](https://github.com/weilixia/food/blob/master/show/home1.png)
 
 ##新浪SEA访问地址：http://weilixia28.applinzi.com/
